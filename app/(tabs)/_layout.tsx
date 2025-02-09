@@ -2,11 +2,13 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { Stack } from 'expo-router'
 import { StatusBar } from 'expo-status-bar'
+import { useFonts } from 'expo-font'
 
 const AuthLayout = () => {
+  
   return (
-  <Stack>
-    <Stack.Screen name='home' options={{headerShown:false}}></Stack.Screen>
+  <Stack screenOptions={{headerShown:false}}>
+    <Stack.Screen name='calendarpage' options={{headerShown:false}}></Stack.Screen>
   </Stack>
   )
 }

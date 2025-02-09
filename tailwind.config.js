@@ -7,9 +7,12 @@ module.exports = {
     extend: {
       colors:{
         main:{
-          DEFAULT:"#FFF9F9"
+          DEFAULT:"#FFF9F9",
+          primary:"#A43232",
+          accent:"#F36563"
         }
       },
+      
       fontFamily: {
         pregular: ["UbuntuRegular", "sans-serif"],
         pmedium: ["UbuntuMedium", "sans-serif"],
@@ -28,7 +31,11 @@ module.exports = {
       textColor:{
         "regular":"#878480",
         "accent":"#FFEDF1"
-      }
+      },
+      backgroundColor:{
+        button:'#E07973'
+      },
+      
        
     },
   },
